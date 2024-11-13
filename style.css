@@ -1,0 +1,84 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contener {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manzil {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    color: rgb(122, 122, 122);
+}
+
+.telefon {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    color: rgb(122, 122, 122);
+}
+
+.leyaut {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mahsulot {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: wheat;
+    border-radius: 6px;
+}
+
+.asos {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.asos a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.leyaut img {
+    width: 150px;
+    height: 100px;
+}
+
+.img {
+    width: 100%;
+    height: 520px;
+    background-color: chartreuse;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
